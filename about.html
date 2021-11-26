@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='en'>
+    
+<head>
+  <meta charset='UTF-8'>
+  <title>About</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+</head>
+
+<body>
+       <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="index.html">Podcast</a>
+                </div>
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="about.html">About</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="references.html">References</a>
+                </div>
+            </div>    
+            
+            <div class="right-side">
+                <div class="brand">
+                    <div>Four to Five</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>    
+        <div class="content-wrapper">
+            <div class="two-column-wrapper">
+                <div class="about-image-wrapper">
+
+                </div>
+                
+                <div class="about-content-wrapper">
+
+                    
+
+                </div>
+            </div>
+        </div>
+                
+                
+        
+    </div>
+</body>
+    
+<script>
+    const portfolioItems = document.querySelectorAll('portfolio-item-wrapper')
+    
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            console.log(portfolioItem);
+        })
+    })
+</script>
+</html>
